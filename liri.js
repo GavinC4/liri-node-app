@@ -135,9 +135,7 @@ inquirer.prompt([{
     }
 });
 
-
-
-// // ======== TWITTER FUNCTIONS=========
+// ======== TWITTER FUNCTIONS=========
 function getTweetsCallback(err, userInput, tweets, resultType) {
     if (err) {
         return console.log(err)
@@ -225,11 +223,6 @@ function formatSongResults(spotifyData) {
 function populateSongResults(spotifyData) {
     console.log(formatSongResults(spotifyData))
 };
-
-
-
-// ============ END SPOTIFY ====================
-
 
 
 // ======== OMDB FUNCTION ===============
@@ -333,16 +326,3 @@ function logUserInput(userInput) {
     });
 }
 
-
-
-// ======== SORT FUNCTION ================
-// Need to add a sort function to sort the music and tweet data
-// function sortData(a, b){ 
-// 	if(action === "my-tweets"){ 
-// 		return (a-b); 
-
-// 	}
-
-// 	if(action === "spotify-this-song"){ 
-
-// 	}
