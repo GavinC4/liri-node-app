@@ -4,7 +4,7 @@
 var keys = require('./keys.js');
 var myTwitterKeys = keys.twitterKeys;
 var request = require('request');
-var spotify = require('spotify');
+var spotify = require('node-spotify-api');
 var Twitter = require('twitter');
 var inquirer = require('inquirer');
 var fs = require('fs');
@@ -22,7 +22,6 @@ var client = new Twitter({
     access_token_key: myTwitterKeys.access_token_key,
     access_token_secret: myTwitterKeys.access_token_secret
 });
-
 
 // ======= Begining Inquirer ===========
 inquirer.prompt([{
