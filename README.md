@@ -1,2 +1,3 @@
 # liri-node-app
-An app using node to retrieve data
+
+LIRI is a command line node app that takes in parameters and gives you back data. It is a project completed as part of the UCF Coding Bootcamp. 
