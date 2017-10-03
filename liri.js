@@ -1,9 +1,6 @@
-// Liri node comand app that pulls in data from twitter, spotify and omdb movie database. Author: Nigel Finley. UT BOOTCAMP.
-
+// Liri node comand app that pulls in data from twitter, spotify and omdb movie database.
 
 // ============= Declaring variables=================
-// var action = process.argv[2];
-// var userInput = process.argv[3];
 var keys = require('./keys.js');
 var myTwitterKeys = keys.twitterKeys;
 var request = require('request');
